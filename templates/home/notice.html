@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %} WPS NOTICE {% endblock %}
+{% block css %}
+
+.card-img {
+width: 100%;
+height: 15rem;
+object-fit: cover;
+}
+
+{% endblock %}
+{% block body  %}
+<div class="container my-4">
+    <h1>Recent Notices:</h1>
+    <div class="row">
+        {% for notice in notices %}
+        <div class="col-sm-6 my-3">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="/media/{{notice.image}}" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>{{notice.title}}</b></h5>
+                            <p class="card-text">{{notice.content|slice:"0:100"}}...</p>
+                            <p class="card-text"><small class="text-muted">Last updated {{notice.timeStamp}}</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</div>
+
+{% endblock %}

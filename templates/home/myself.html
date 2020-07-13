@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %} Developer {% endblock %}
+{% block body  %}
+{% load static %}
+
+
+<div class="bg-dark">
+
+    <section class="text-gray-700 body-font">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+            <img class="img-fluid rounded mx-auto d-block" src="{% static 'home/me.jpg' %}" style="
+    height: 200px;">
+            <div class="text-center lg:w-2/3 w-full">
+                <h1><p class="text-white bg-dark"> Shivang Bagri </p></h1>
+                <p class="text-white bg-dark">
+                    <mark>A student who is evolving in programming and developing day by day.<br><br>
+                        Some of my skills:<br><br>
+                        Competitive Programming<br>
+                        Game Development<br>
+                        Web Development<br>
+                        Python , JAVA<br>
+                        Frontend<br>
+
+
+                    </mark>
+                </p>
+
+                <br>
+                <div class="flex justify-center">
+                    <a href="mailto: sivangbagri@gamil.com." role="button"
+                       class="inline-flex text-black bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+
+                        Contact me
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    {% endblock %}
+</div>
