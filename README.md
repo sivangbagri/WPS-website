@@ -8,7 +8,7 @@ Open your terminal and follow below mentioned steps:
 
 #### Step 1:
 ```
-git clone
+git clone https://github.com/sivangbagri/WPS-website.git
 ```
 #### Step 2: Go to directory/folder on which requirements.txt file is present
 
@@ -23,4 +23,4 @@ Fire folllowing commands:
 python manage.py runserver
 ```
 
-**Your local sever is ready click on link(127.0.0..) and ENJOY** 
+**Your local sever is ready click on link(127.0.0..) and ENJOY!** 
