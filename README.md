@@ -5,7 +5,7 @@
 
 # WPS-website
 
-**Visit the site:** [Click Here!](shivangbagri.pythonanaywhere.com)
+**Visit the site:** [Click Here!](http://shivangbagri.pythonanywhere.com/)
 
 
 ##### Access Backend:
