@@ -8,7 +8,7 @@
 **Visit the site:** [Click Here!](http://shivangbagri.pythonanywhere.com/)
 
 
-##### Access Backend:
+## Access Backend:
 Open your terminal and follow below mentioned steps:
 
 #### Step 1:
@@ -29,3 +29,5 @@ python manage.py runserver
 ```
 
 **Your local sever is ready click on link(127.0.0..) and ENJOY!** 
+
+**Contact Developer: sivangbagri@gamil.com**
